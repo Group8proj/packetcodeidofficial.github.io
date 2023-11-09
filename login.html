@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           body{
+              background-color: rgb(241, 241, 241);
+              color: rgb(16, 21, 26);
+              font-family: sans-serif;
+              margin: 0;
+              padding: 30px;
+            }
+        button:hover{
+            background-color: rgb(106, 106, 201);
+        }
+        div{
+            display: inline-block;
+            margin: auto;
+            margin-right: 30px;
+            padding: 0px 10px 20px 0px;
+        }
+        .name{
+            padding: 0px;
+            font-size: 13px;
+            color: rgb(90, 103, 114);
+        }
+        .email{
+            padding: 0px;
+        }
+        .contact{
+            padding: 0px;
+        }
+        .date{
+            padding: 0px;
+            width: 100px;
+        }
+    
+    
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Volunteer Form</h1>
+    <form>
+        <p><b>Full Name</b></p>
+        <div class="name">
+            <input type="text" required>
+            <br>
+            <label for="">First Name</label>
+        </div>
+        <div class="name">
+            <input type="text" required>
+            <br>
+            <label for="">Last Name</label>
+        </div>
+        <br>
+        <br>
+        <div>
+        <label class="email" for=""><b>Email</b></label>
+        <br>
+        <input type="email" required>
+     </div>
+     <br>
+     <div>   
+        <label class="contact" for=""><b>Contact No.</b></label>
+        <br>
+        <input type="number">
+     </div>
+     <br>
+    <div>
+        <label class="number" width="100px" for=""><b>Age</b></label>
+        <br>
+        <input type="number" required>
+    </div>
+    <br>
+    <div>
+        <p> <b>What time can you work?</b></p>
+        <input type="checkbox" name="" id="">
+        <label for="">Any time</label>
+        <br>
+        <br>
+        <input type="checkbox" name="" id="">
+        <label for="">8am - 11am</label>
+        <br>
+        <br>
+        <input type="checkbox" name="" id="">
+        <label for="">12pm - 3pm</label>
+    </div>
+    <br>
+    <div>
+        <p> <b>What are you interested in?
+            <br>
+            Check all that applies</b>
+        </p>
+        <input type="checkbox" name="" id="">
+        <label for="">First Aid</label>
+        <br>
+        <br>
+        <input type="checkbox" name="" id="">
+        <label for="">Decoration</label>
+        <br>
+        <br>
+        <input type="checkbox" name="" id="">
+        <label for="">Food</label>
+        <br>
+        <br>
+        <input type="checkbox" name="" id="">
+        <label for="">Games</label>
+        <br>
+        <br>
+        <input type="checkbox" name="" id="">
+        <label for="">Cleaning</label>
+        <br>
+        <br>
+        <input type="checkbox" name="" id="">
+        <label for="">Other</label>
+        </div>
+        <br>
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
